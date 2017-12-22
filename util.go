@@ -7,7 +7,7 @@ import "C"
 import (
 	"unsafe"
 
-	go_debug "github.com/tj/go-debug"
+	go_debug "github.com/mishamx/go-debug"
 )
 
 func byteArrayPointer(b []byte) unsafe.Pointer {
